@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+  </head>
+  <body>
+    <div>
+      <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        li{
+         float:left 
+        }
+        li a{
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+      </style>
+      <ul>
+        <li><a href=index.html>Home</a></li>
+        <li><a href=about.html>About</a></li>
+      </ul>
+    </div>
+    <h2>This is the home page</h2>
+    <form name="StrReverse">
+
+      <p>Enter a string to have it reversed:</p>
+      <input type="text" name="StrIn" onchange="reverse();">
+      
+      <p>Reversed String: </p>
+      <p id="reversed"></p>
+
+      <label>String Length: </label>
+      <p id="reversedLength"></p>
+    </form>
+    <script src="script.js">
+      
+    </script>
+  </body>
+</html>
